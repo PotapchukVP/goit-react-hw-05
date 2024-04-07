@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.moviesWrapper {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.moviesDescription {
+  display: flex;
+  flex-direction: column;
+}
+
+.movieTitle {
+  color: rgb(216, 99, 57);
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.movieTagLine {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.button {
+  background-color: rgb(216, 99, 57);
+  width: 100px;
+  color: black;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-style: none;
+}
+
+.linkWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  list-style: none;
+  margin: 20px, auto;
+}
+
+.link {
+  color: rgb(216, 99, 57);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
