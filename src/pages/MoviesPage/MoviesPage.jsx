@@ -5,7 +5,7 @@ import { getMoviesBySearch } from "../../../api.jsx";
 import SearchBar from "../../components/SearchBar/SearchBar.jsx";
 import MovieList from "../../components/MovieList/MovieList.jsx";
 
-const Movies = () => {
+const MoviesPage = () => {
   const [search, setSearch] = useState("");
   const [data, setData] = useState();
   const [error, setError] = useState("");
@@ -32,4 +32,4 @@ const Movies = () => {
   );
 };
 
-export default Movies;
+export default MoviesPage;
